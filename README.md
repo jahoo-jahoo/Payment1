@@ -6,7 +6,7 @@
   <h5>Name: M.M.R.Jayashan<br>
   Account no: 88088497<br>
     Bank: BOC<br>
-    Branch: Regent Street
+    Branch: Regent Street<br>
   </h5>
   <br><br>
   <h6>
