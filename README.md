@@ -1,7 +1,7 @@
 <html>
   <body>
     <h2>Payment_details</h2>
-    <h4>fee-Rs: 500/-</h4><br>
+    <h4>fee-Rs: 380/-</h4><br>
   <h4>Online transfer or ATM Transfer</h4>
   <h5>Name: M.M.R.Jayashan<br>
   Account no: 88088497<br>
