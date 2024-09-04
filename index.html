@@ -11,18 +11,28 @@
     <h2>fee-Rs: 400/-</h2><br>
   <h2>Online transfer or ATM Transfer</h2>
   <h2>Name:<input type="text" style="color:white;" size="1" value="M.M.R.Jayashan" id="myInput">
-<button onclick="myFunction()">Copy text</button>
+<button onclick="myFunction()">Copy name</button>
 <script>
   function myFunction() {
     var copyText = document.getElementById("myInput");
     copyText.select();
     document.execCommand("Copy");
-    alert("Copied the text: " + copyText.value);
+    alert("Copied the name:successed");
   }
 </script>
 
     <br>
-  Account no: 88088497<br>
+   Account no: 88088497 <input type="number" id="input1">
+   <button onclick ="myFun()">copy AC no</button>
+   <script>
+     function myFun(){
+       document.getElementById("input1").value="88088497";
+       document.select();
+       document.execCommand("Copy");
+       alert("copied AC no : successed");
+     }
+   </script>
+    <br>
     Bank: BOC<br>
     Branch: Regent Street<br>
   </h2>
