@@ -14,10 +14,10 @@
 <button onclick="myFunction()">Copy text</button>
 <script>
   function myFunction() {
-    var copyText = document.getElementById("myInput").value;
-    copyText.select();
+    var copyHidden = document.getElementById("myInput");
+    copyHidden.select();
     document.execCommand("Copy");
-    alert("Copied the text: " + copyText.value);
+    alert("Copied the text: " + copyHidden.value);
   }
 </script>
 
