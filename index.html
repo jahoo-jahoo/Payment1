@@ -14,8 +14,8 @@
 <button onclick="myFunction()">Copy text</button>
 <script>
   function myFunction() {
-    var copyHidden = document.getElementById("myInput");
-    copyHidden.select();
+    var copyText = document.getElementById("myInput");
+    copyText.select();
     document.execCommand("Copy");
     alert("Copied the text: " + copyHidden.value);
   }
